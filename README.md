@@ -34,6 +34,8 @@ The rest of the platform focuses on standard member, reservation, feedback, and 
 
 ## Demo
 
+(Follow Installation and Usage instructions first).
+
 Most user interactions follow standard browser dashboard behaviour such as registration, sign-in, reservations, feedback, and admin management.
 
 The main feature to observe is the synchronized workout session behaviour.
@@ -101,6 +103,7 @@ npm install
 Create environment configuration:
 
 ```bash
+cd ../..
 cp .env.example .env
 ```
 
