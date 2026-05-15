@@ -1,0 +1,14 @@
+{
+  "name": "fithub-ai-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "FitHub AI full stack browser dashboard scaffold",
+  "scripts": {
+    "dev:frontend": "npm --prefix src/frontend run dev",
+    "build:frontend": "npm --prefix src/frontend run build",
+    "test:frontend": "npm --prefix src/frontend run test",
+    "dev:backend": "uvicorn src.backend.app.main:app --reload",
+    "test:backend": "pytest tests/backend"
+  }
+}
+

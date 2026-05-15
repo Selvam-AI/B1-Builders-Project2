@@ -1,0 +1,48 @@
+"""Pydantic schema package for request and response models."""
+
+from src.backend.app.schemas.core import (
+    ApiStatus,
+    BroadcastSessionCreate,
+    BroadcastSessionRead,
+    FeedbackCreate,
+    FeedbackRead,
+    FeedbackSummaryRead,
+    OccupancyRead,
+    ReservationCreate,
+    ReservationRead,
+    TimeSlotRead,
+    UserStatusUpdate,
+    VideoCacheEntryRead,
+    VideoCuratorRunRead,
+    VideoPlaybackConfirmed,
+    VideoPlaybackFailure,
+    VideoRecommendationRequest,
+    VideoSessionRead,
+    WorkoutCategoryRead,
+)
+from src.backend.app.schemas.auth import LoginRequest, MemberRegister, TokenResponse, UserRead
+
+__all__ = [
+    "ApiStatus",
+    "BroadcastSessionCreate",
+    "BroadcastSessionRead",
+    "FeedbackCreate",
+    "FeedbackRead",
+    "FeedbackSummaryRead",
+    "LoginRequest",
+    "MemberRegister",
+    "OccupancyRead",
+    "ReservationCreate",
+    "ReservationRead",
+    "TimeSlotRead",
+    "UserStatusUpdate",
+    "VideoCacheEntryRead",
+    "VideoCuratorRunRead",
+    "VideoPlaybackConfirmed",
+    "VideoPlaybackFailure",
+    "VideoRecommendationRequest",
+    "TokenResponse",
+    "UserRead",
+    "VideoSessionRead",
+    "WorkoutCategoryRead",
+]

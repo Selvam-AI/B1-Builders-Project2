@@ -1,0 +1,2 @@
+"""FitHub AI backend package."""
+
