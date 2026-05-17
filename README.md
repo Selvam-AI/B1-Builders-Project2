@@ -73,7 +73,7 @@ Both users will experience the same shared playback moment, including users who 
 ## Development Approach with AI
 
 - Codex is used as an AI co-developer for repository scaffolding, planning, documentation, implementation, review, and debugging.
-- AI work is documented in `docs/PROMPTS_IMPLEMENTATION.md` so evaluators can see the prompts, suggestions, decisions, and implementation summaries.
+- AI work is documented in [docs/PROMPTS_IMPLEMENTATION.md](docs/PROMPTS_IMPLEMENTATION.md) so evaluators can see the prompts, suggestions, decisions, and implementation summaries.
 - CrewAI was considered earlier, but the implementation now keeps core behaviour deterministic for reliability, testability, and faster local demos.
 - The main service roles are:
   - Member Experience services: auth, reservations, broadcast join/exit, and feedback.
